@@ -154,8 +154,7 @@ TARGET_CPU_MEMCPY_OPT_DISABLE := true
 # Enable Minikin text layout engine (will be the default soon)
 USE_MINIKIN := true
 
-# Selinux
-BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
+
 
 # Sepolicy hack for old kernel, mt6572 version is 26.
 POLICYVERS := 26
